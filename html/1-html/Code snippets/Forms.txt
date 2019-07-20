@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="name">first name</label>
+        <input type="text" name="name" id="name">
+        <br>  
+        <p>password</p>
+        <input type="password" placeholder="password">
+        <br>
+        <input type="email" name="" id="" value="reilly.martin@gmail.com">
+        <br>
+        <p>description</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <p>Please select your favorite coding language?</p>
+        <input type="radio" name="coding" id="" value="javascript">Javascript
+        <input type="radio" name="coding" id="" value="java">Java
+        <input type="radio" name="coding" id="" value="python">Python
+        <br>
+        <p>Please select your favorite coding languages?</p>
+        <input type="checkbox" checked value="javascript" name="programming" id="">Javascript
+        <input type="checkbox" value="java" name="programming" id="">Java
+        <input type="checkbox" value="python" name="programming" id="">Python
+        <br>
+        <p>Please select your favorite coding languages?</p>
+        <select name="program" id="">
+            <option value="javascript">Javascript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="submit please">
+        <!-- <button type="submit">submit</button> -->
+    </form>
+</body>
+
+</html>
